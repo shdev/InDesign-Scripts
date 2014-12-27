@@ -10,5 +10,7 @@ This scripts generates for selected objects a list of name, position and size.
 
 I made this script, to fill a PDF with data.
 
+This script is also compatible with Adobe Illustrator
+
 #### Requirements
-* Adobe InDesign CS 6
+* Adobe InDesign CS 6 or higher 
