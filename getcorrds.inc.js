@@ -57,9 +57,9 @@ function saveList(list) {
         alert('No elements selected')
         return;
     }
-    defaultFile = new File (Folder.myDocuments+"/"+app.activeDocument.name.replace(/\.(indd|ai|pdf|svg)$/i, '')+".txt");
+    defaultFile = new File (Folder.myDocuments+"/"+app.activeDocument.name.replace(/\.(indd|ai|pdf|svg)$/i, '')+".json");
     if (File.fs == "Windows") {
-        writeFile = defaultFile.saveDlg( 'Save object list', "Plain text file:*.txt;All files:*.*" );
+        writeFile = defaultFile.saveDlg( 'Save object list', "JSON file:*.json;All files:*.*" );
     } else {
         writeFile = defaultFile.saveDlg( 'Save object list');
     }
