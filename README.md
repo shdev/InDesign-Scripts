@@ -4,7 +4,7 @@ Here are some scripts for Adobe InDesign placed, that may help you in your workf
 
 ## Scripts
 
-### getobjcorrds_topleft.jsx
+### getcorrds.jsx
 
 This scripts generates for selected objects a list of name, position and size.
 
@@ -12,5 +12,11 @@ I made this script, to fill a PDF with data.
 
 This script is also compatible with Adobe Illustrator
 
-#### Requirements
+## Requirements
+
 * Adobe InDesign CS 6 or higher 
+
+## How to make the script
+
+run `make` from root directory.
+
