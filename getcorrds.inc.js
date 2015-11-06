@@ -22,7 +22,7 @@ function buildList() {
 
     // Output is tab separated: name left top width height
 
-    if (app.name === 'Adobe Indesign') {
+    if (app.name.toUpperCase() === 'ADOBE INDESIGN') {
       height = selectedObjects[i].geometricBounds[2] - selectedObjects[i].geometricBounds[0];
       width = selectedObjects[i].geometricBounds[3] - selectedObjects[i].geometricBounds[1];
       left = selectedObjects[i].geometricBounds[1];
