@@ -6,11 +6,13 @@ Here are some scripts for Adobe InDesign placed, that may help you in your workf
 
 ### getcorrds.jsx
 
-This scripts generates for selected objects a list of name, position and size.
+This scripts generates for selected objects a list of name, position and size. 
+Position and size are exported as mm from InDesign. Illustrator exports it as px.
+
 
 I made this script, to fill a PDF with data.
 
-This script is also compatible with Adobe Illustrator
+This script is also compatible with Adobe Illustrator.
 
 ## Requirements
 
